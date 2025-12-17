@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جامعة المنيا - Minia University</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary-custom sticky-top"> 
+        <div class="container">
+            <a class="navbar-brand" href="#">جامعة المنيا</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#hero">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">عن الجامعة</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#colleges">الكليات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">الرسوم الدراسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">مركز الأخبار</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">وظائف</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">أنظمة الجامعة</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">English</a>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn-cta">   اتصل الان </a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="hero" class="about-section text-white d-flex align-items-center justify-content-center text-center">
+        <div class="container p-5 bg-overlay">
+            <h1 class="display-4 fw-bold mb-4">عن جامعة المنيا</h1>
+            <p class="lead mb-4">تأسست جامعة المنيا عام 1976، وهي جامعة حكومية تهدف لتقديم تعليم عالي الجودة يواكب متطلبات العصر ويعد أجيالًا قادرة على المنافسة محليًا وعالميًا.</p>
+            <p class="lead mb-5">تسعى الجامعة لتقديم بيئة تعليمية وبحثية متميزة، من خلال تطوير البرامج الأكاديمية، وتعزيز البحث العلمي، وخدمة المجتمع المحلي والإقليمي.</p>
+            <a href="apply.html" class="btn btn-cta">التحق الآن</a>
+        </div>
+    </header>
+
+    <section id="colleges" class="py-5 bg-light-subtle">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-3">الكليات المتاحة في جامعة المنيا</h2>
+            <p class="text-center mb-5 text-muted">تضم جامعة المنيا 17 كلية تقدم برامج أكاديمية متنوعة في مجالات الطب، الهندسة، العلوم، الحاسبات والمعلومات، وغيرها.</p>
+            
+            <div class="row row-cols-1 row-cols-md-3 g-4" id="colleges-grid">
+                <div class="col">
+                    <div class="card h-100 shadow-sm college-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-laptop-code fa-3x mb-3 text-primary-custom"></i>
+                            <h5 class="card-title">كلية الحاسبات والمعلومات</h5>
+                            <p class="card-text text-muted">برامج متطورة في علوم الحاسب، نظم المعلومات، والذكاء الاصطناعي.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm college-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-hard-hat fa-3x mb-3 text-primary-custom"></i>
+                            <h5 class="card-title">كلية الهندسة</h5>
+                            <p class="card-text text-muted">تعليم وتدريب في مختلف التخصصات الهندسية.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm college-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-user-md fa-3x mb-3 text-primary-custom"></i>
+                            <h5 class="card-title">كلية الطب</h5>
+                            <p class="card-text text-muted">إعداد أطباء مؤهلين لخدمة المجتمع الصحي.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm college-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-pills fa-3x mb-3 text-primary-custom"></i>
+                            <h5 class="card-title">كلية الصيدلة</h5>
+                            <p class="card-text text-muted">تأهيل صيادلة متخصصين في علوم الأدوية.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm college-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-flask fa-3x mb-3 text-primary-custom"></i>
+                            <h5 class="card-title">كلية العلوم</h5>
+                            <p class="card-text text-muted">برامج علمية وبحثية في العلوم الأساسية والتطبيقية.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="more-colleges" class="row row-cols-1 row-cols-md-3 g-4 d-none">
+                <div class="col">
+                    <div class="card h-100 shadow-sm college-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-book-open fa-3x mb-3 text-primary-custom"></i>
+                            <h5 class="card-title">كلية الآداب</h5>
+                            <p class="card-text text-muted">تخصصات في التاريخ، الجغرافيا، وعلم الاجتماع.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm college-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-graduation-cap fa-3x mb-3 text-primary-custom"></i>
+                            <h5 class="card-title">كلية التربية</h5>
+                            <p class="card-text text-muted">إعداد معلمين مؤهلين للمراحل التعليمية المختلفة.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm college-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-user-nurse fa-3x mb-3 text-primary-custom"></i>
+                            <h5 class="card-title">كلية التمريض</h5>
+                            <p class="card-text text-muted">برامج أكاديمية لتطوير الكوادر التمريضية.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm college-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-tooth fa-3x mb-3 text-primary-custom"></i>
+                            <h5 class="card-title">كلية طب الأسنان</h5>
+                            <p class="card-text text-muted">تأهيل أطباء أسنان ذوي كفاءة عالية.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm college-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-gavel fa-3x mb-3 text-primary-custom"></i>
+                            <h5 class="card-title">كلية الحقوق</h5>
+                            <p class="card-text text-muted">تعليم القانون والتحضير للمهن القانونية.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm college-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-plane-departure fa-3x mb-3 text-primary-custom"></i>
+                            <h5 class="card-title">كلية السياحة والفنادق</h5>
+                            <p class="card-text text-muted">برامج متخصصة في إدارة السياحة والضيافة.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm college-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-seedling fa-3x mb-3 text-primary-custom"></i>
+                            <h5 class="card-title">كلية الزراعة</h5>
+                            <p class="card-text text-muted">تعليم وتطوير في العلوم الزراعية والغذائية.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm college-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-paint-brush fa-3x mb-3 text-primary-custom"></i>
+                            <h5 class="card-title">كلية التربية النوعية</h5>
+                            <p class="card-text text-muted">برامج في المجالات الفنية والتربوية المتنوعة.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm college-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-palette fa-3x mb-3 text-primary-custom"></i>
+                            <h5 class="card-title">كلية الفنون الجميلة</h5>
+                            <p class="card-text text-muted">تخصصات في الفنون التشكيلية والعمارة.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm college-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-running fa-3x mb-3 text-primary-custom"></i>
+                            <h5 class="card-title">كلية التربية الرياضية</h5>
+                            <p class="card-text text-muted">إعداد متخصصين في الرياضة والتربية البدنية.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm college-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-mosque fa-3x mb-3 text-primary-custom"></i>
+                            <h5 class="card-title">كلية دار العلوم</h5>
+                            <p class="card-text text-muted">دراسات متعمقة في اللغة العربية والعلوم الإسلامية.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm college-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-language fa-3x mb-3 text-primary-custom"></i>
+                            <h5 class="card-title">كلية الألسن</h5>
+                            <p class="card-text text-muted">برامج في اللغات الحية والترجمة.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <button id="show-more-btn" class="btn btn-primary-custom btn-lg">شاهد كل الكليات</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="partners" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">شركاؤنا في النجاح</h2>
+            <div class="row row-cols-2 row-cols-md-4 g-4 text-center">
+                <div class="col">
+                    <div class="partner-logo">
+                        <img src="download (1).jpeg" alt="Partner 1 Logo" class="img-fluid">
+                        <p class="mt-2 text-muted">الجامعة الأمريكية بالقاهرة</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="partner-logo">
+                        <img src="download (1).png" alt="Partner 2 Logo" class="img-fluid">
+                        <p class="mt-2 text-muted">هيئة تنمية صناعة تكنولوجيا المعلومات  </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="partner-logo">
+                        <img src="images.png" alt="Partner 3 Logo" class="img-fluid">
+                        <p class="mt-2 text-muted">المجلس الأعلى للجامعات</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="partner-logo">
+                        <img src="download.png" alt="Partner 4 Logo" class="img-fluid">
+                        <p class="mt-2 text-muted">جامعة القاهرة</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="news" class="py-5 bg-light-subtle">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">أحدث الأخبار والفعاليات</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 shadow-sm news-card">
+                        <img src="2933424861706726318.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">انطلاق فعاليات المؤتمر العلمي الأول للجامعة</h5>
+                            <p class="card-text text-muted">15 أغسطس 2025</p>
+                            <a href="#" class="btn btn-primary-custom">اقرأ المزيد</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm news-card">
+                        <img src="download (3).jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">افتتاح المعرض الفني لطلاب كلية الفنون الجميلة</h5>
+                            <p class="card-text text-muted">10 أغسطس 2025</p>
+                            <a href="#" class="btn btn-primary-custom">اقرأ المزيد</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm news-card">
+                        <img src="20220817011406146.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">نتائج تنسيق المرحلة الأولى للعام الدراسي الجديد</h5>
+                            <p class="card-text text-muted">05 أغسطس 2025</p>
+                            <a href="#" class="btn btn-primary-custom">اقرأ المزيد</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">تواصل معنا</h2>
+            <div class="row g-5">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="fullName" class="form-label">الاسم الكامل</label>
+                            <input type="text" class="form-control" id="fullName">
+                        </div>
+                        <div class="mb-3">
+                            <label for="emailAddress" class="form-label">البريد الإلكتروني</label>
+                            <input type="email" class="form-control" id="emailAddress">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">الرسالة</label>
+                            <textarea class="form-control" id="message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="send-message">إرسال الرسالة</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-info mb-4">
+                        <h4 class="fw-bold">معلومات الاتصال</h4>
+                        <p><i class="fas fa-map-marker-alt text-primary-custom me-2"></i> العنوان: الطريق الزراعي، المنيا، مصر</p>
+                        <p><i class="fas fa-envelope text-primary-custom me-2"></i> البريد الإلكتروني: info@minia.edu.eg</p>
+                        <p><i class="fas fa-phone-alt text-primary-custom me-2"></i> الهاتف: 086-2347767</p>
+                        <p><i class="fas fa-headset text-primary-custom me-2"></i> الخط الساخن: 19684</p>
+                    </div>
+                    <div class="google-map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3550.0051119748687!2d30.7301072!3d28.1130635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145a337c6888c3a7%3A0x6a2c27c6a992e591!2sMinia%20University!5e0!3m2!1sen!2seg!4v1628956973347!5m2!1sen!2seg" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white-50 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-white">روابط سريعة</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50 text-decoration-none">الرسوم الدراسية</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">التحق الآن</a></li>
+                        <li><a href="#contact" class="text-white-50 text-decoration-none">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-white">معلومات الاتصال</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt me-2"></i> الطريق الزراعي، المنيا، مصر</li>
+                        <li><i class="fas fa-envelope me-2"></i> info@minia.edu.eg</li>
+                        <li><i class="fas fa-phone-alt me-2"></i> 086-2347767</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3 text-center text-md-end">
+                    <h5 class="text-white">تابعنا</h5>
+                    <a href="#" class="text-white me-2"><i class="fab fa-facebook-f fa-lg"></i></a>
+                    <a href="#" class="text-white me-2"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="#" class="text-white me-2"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                    <a href="#" class="text-white me-2"><i class="fab fa-youtube fa-lg"></i></a>
+                </div>
+            </div>
+            <hr class="my-4 border-secondary">
+            <div class="text-center">
+                <p class="mb-0">جميع الحقوق محفوظة © 2024 جامعة المنيا</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById('show-more-btn').addEventListener('click', function() {
+            var moreColleges = document.getElementById('more-colleges');
+            if (moreColleges.classList.contains('d-none')) {
+                moreColleges.classList.remove('d-none');
+                this.innerText = 'إخفاء الكليات';
+            } else {
+                moreColleges.classList.add('d-none');
+                this.innerText = 'شاهد كل الكليات';
+            }
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+:root {
+    --primary-color: #004d99; /* Dark Blue */
+    --secondary-color: #e7eef4; /* Light Blue/Gray */
+    --cta-color: #ffc107; /* Yellow */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    direction: rtl;
+    text-align: right;
+    color: #333;
+}
+
+.bg-primary-custom {
+    background-color: var(--primary-color) !important;
+}
+
+.text-primary-custom {
+    color: var(--primary-color) !important;
+}
+
+.btn-cta {
+    background-color: var(--cta-color);
+    color: var(--primary-color);
+    border: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.btn-cta:hover {
+    background-color: #e0ac00;
+    color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+.navbar .nav-link {
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8) !important;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #fff !important;
+}
+
+/* Hero/About Section */
+.about-section {
+    position: relative;
+    background: url('https://via.placeholder.com/1920x1080/004d99/ffffff?text=Minia+University+Campus') no-repeat center center/cover;
+    height: 80vh;
+    min-height: 600px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.bg-overlay {
+    background-color: rgba(0, 77, 153, 0.7);
+    border-radius: 15px;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.college-card:hover, .news-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.college-card .card-body {
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.news-card .card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* Partners Section */
+.partner-logo img {
+opacity: .8;
+}
+
+.partner-logo img:hover {
+    opacity: 1;
+    scale: 1.1;
+    transition: .7s;
+}
+
+/* Contact Section */
+.google-map-container {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer a {
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #fff !important;
+}
+
+.bg-dark {
+    background-color: #1f252a !important;
+}
+.send-message{
+    background-color: #004d99;
+    color: #e7eef4;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+}
+.send-req{
+    background-color: #1164b7;
+    color:whitesmoke;
+    border: 10px;
+    border-radius: 10px;
+}
